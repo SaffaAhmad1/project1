@@ -1,0 +1,365 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+
+}
+header{
+    border-bottom: 2px solid #4B4957;
+    background-image: url(imgs/BT_perfcon_SSH_GettyImages-1001279256.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo {
+    height: 70px;
+}
+header .container .logo h1{
+    margin-top:15px;
+    color: rgba(255, 255, 255, 0.89);
+}
+span{
+    font-size: medium;
+}
+header .container nav ul {
+    display:flex;
+    list-style-type: none;
+}
+header .container nav ul li{
+    margin-right: 35px;
+    align-items: center;
+}
+header .container nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.918);    
+}
+header .container nav ul li a.active{
+    color:rgb(30, 181, 201);
+}
+header .container nav ul li a:hover{
+    color:rgb(30, 181, 201);
+}
+.login , .signup:hover{
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+    color: rgba(255, 255, 255, 0.89);
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.signup , .login:hover{
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: rgb(30, 181, 201);
+    color: white;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+}
+#fold{
+    background-image: url(imgs/BT_perfcon_SSH_GettyImages-1001279256.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+#fold .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#fold .container h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.89);
+}
+#fold .container .boxsearch  input{
+    width: 500px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color:rgba(255, 255, 255, 0.89);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.89);
+}
+#fold .container .boxsearch button{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(30, 181, 201);
+    color: rgba(255, 255, 255, 0.89);
+    border: 1px solid;
+    border:none;
+}
+#fold .container .boxsearch button:hover{
+    background-color:rgba(128, 128, 128, 0.411) ;
+}
+#fold .container ul{
+    list-style-type: none;
+}
+#fold .container ul li{
+    display:inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#fold .container ul li label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+#fold .container ul li label input[type=checkbox] {
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    outline: none;
+    cursor: pointer;
+}
+#fold .container ul li label span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.89);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#services {
+    background-color: #f7f7f79c;
+    height: 200px;
+}
+#services .container h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#services .container .serv{
+    display: inline;
+    margin-left: 100px;
+}
+#services2 .container{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services2 .container span{
+    color: rgb(30, 181, 201);
+    font-weight: bold;
+    background-color:#f7f7f79c ;
+    margin-right: 940px;
+    font-size: 18px;
+}
+#services2 .container h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#services2 .container p{
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 15.5px;
+    margin-bottom: 100px;
+}
+#services2 .container .data{
+    display: flex;
+}
+#services2 .container .data .da{
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 50px 40px;
+    text-align: center;
+}
+#services2 .container .data .da .dt{
+    border-radius: 50%;
+    background-color:rgb(30, 181, 201) ;
+    height: 90px;
+    width: 90px;
+    margin: auto;
+}
+#services2 .container .data .da .dt i{
+    color: white;
+    font-size: 35px;
+    margin-top: 30%;
+}
+#services2 .container .data .da h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#services2 .container .data .da p{
+    opacity: 0.5;
+    font-size: 15px;
+}
+#services2 .container .data .da a{
+    text-decoration: none;
+    color:blue;
+}
+#cloud {
+    background-image: url(imgs/BT_perfcon_SSH_GettyImages-1001279256.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+#cloud .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 1000px;
+}
+#cloud .container h2{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#cloud .container p{
+    color:rgba(255, 255, 255, 0.89) ;
+    font-size: 20px;
+}
+#cloud .container .cd{
+    display: flex;
+}
+#cloud .container .cd .cl{
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 1px #aaa;
+    margin: 50px;
+    padding: 30px;
+    position: relative;
+}
+#cloud .container .cd .cl h4{
+    font-size: 15px;
+}
+#cloud .container .cd .cl .vv{
+    background-color: rgb(87, 19, 151);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 3px;
+}
+#cloud .container .cd .cl .vv h4{
+    font-size: 35px;
+    margin: 8px;
+    font-weight: bold;
+}
+#cloud .container .cd .cl .vv h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#cloud .container .cd .cl .co{
+    background-color: rgb(30, 181, 201);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 3px;
+}
+#cloud .container .cd .cl .co h4{
+    font-size: 35px;
+    margin: 8px;
+    font-weight: bold;
+}
+#cloud .container .cd .cl .co h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#cloud .container .cd .cl p{
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+#cloud .container .cd .cl hr{
+    margin-bottom: 20px;
+}
+#cloud .container .cd .cl ul{
+    list-style: none;
+}
+#cloud .container .cd .cl ul li{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #6a6a6a;
+}
+#cloud .container .cd .cl ul li i{
+    margin-bottom: 20px;
+    display: flex;
+    color: blue;
+    
+}
+#cloud .container .cd .cl button{
+    font-size: 15PX;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(30, 181, 201) ;
+    border-radius: 3px;
+    border-style: none;
+    padding: 20px;
+    position:absolute;
+    left: 30%;
+}
+#cloud .container .cd .cl  .btn2{
+    font-size: 15PX;
+    font-weight: bold;
+    background-color:rgb(87, 19, 151) ;
+    border-radius: 3px;
+    border-style: none;
+    padding: 20px;
+    position:absolute;
+    left: 30%;
+}
+#quality .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 1300px;
+}
+#quality .container h5{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px; 
+    color:rgb(30, 181, 201) ;
+}
+#quality .container h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#quality .container .qual{
+    display:flex;
+    margin: 20px;
+    padding: 20px;
+
+}
